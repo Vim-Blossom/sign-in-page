@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YOU & Company - Login</title>
+    <link rel="stylesheet" href="styles.css">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        
+        <div class="left-side">
+            <div class="overlay"></div>
+            <div class="content">
+                <h1>YOU & Company</h1>
+                <p>Unlock your success with our products. Join us today and begin your journey.</p>
+            </div>
+            <div class="join-date">
+                <p>Join 2025</p>
+            </div>
+        </div>
+
+        
+        <div class="right-side">
+            <div class="login-container">
+                <h2>Login</h2>
+                <p class="subtitle">Start with login and enjoy our Products. We appreciate your subscription.</p>
+
+                <form id="loginForm" class="login-form">
+                    
+                    <div class="form-group">
+                        <input 
+                            type="email" 
+                            id="email" 
+                            placeholder="Email" 
+                            required
+                            autocomplete="email">
+                    </div>
+                    <div class="form-group">
+                        <input 
+                            type="password" 
+                            id="password" 
+                            placeholder="Password" 
+                            required
+                            autocomplete="current-password">
+                    </div>
+
+                    
+                    <div class="form-options">
+                        <label class="checkbox-container">
+                            <input type="checkbox" id="saveLogin">
+                            <span class="checkmark"></span>
+                            Save login info
+                        </label>
+                        <a href="#" class="forgot-password">Forgot Password?</a>
+                    </div>
+
+                    
+                    <button type="submit" class="login-button">
+                        <i class="fas fa-sign-in-alt"></i>
+                        Login
+                    </button>
+                </form>
+
+                
+                <p class="register-text">
+                    Does not have account yet? 
+                    <a href="#" class="register-link">Register</a>
+                </p>
+            </div>
+        </div>
+    </div>
+
+    
+    <script src="script.js"></script>
+</body>
+</html> 
